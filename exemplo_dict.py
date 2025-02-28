@@ -2,7 +2,7 @@
 
 from typing import Dict, Optional, Any
 
-produto_01: Dict[str, [str]]
+produto_01: Dict[str]
 
 import json
 
