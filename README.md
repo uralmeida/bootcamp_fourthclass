@@ -60,6 +60,13 @@ nomes = [" Alice ", "BOB", "Carlos"]
 nomes_limpos = [limpar_texto(nome) for nome in nomes]
 print(nomes_limpos)  # Saída: ['alice', 'bob', 'carlos']
 ```
+
+
+## Boas práticas de programação
+[Pep 8](https://peps.python.org/pep-0008/)
+
+
+
 ## Referências
 - [Material de Referência sobre Engenharia de Dados](https://github.com/lvgalvao/data-engineering-roadmap)
 
