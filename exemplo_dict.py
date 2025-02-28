@@ -1,6 +1,6 @@
 
 
-produto_01 = {
+produto_01: dict = {
 
     "nome" : "televisão",
     "quantidade" : 12,
@@ -9,7 +9,7 @@ produto_01 = {
 
 }
  
-produto_02 = {
+produto_02: dict = {
 
     "nome" : "notebook",
     "quantidade" : 19,
@@ -18,7 +18,7 @@ produto_02 = {
 
 }
 
-produto_03 = {
+produto_03: dict = {
 
     "nome" : "fogão",
     "quantidade" : 8,
@@ -27,5 +27,9 @@ produto_03 = {
 
 }
 
-produtos = [produto_01,produto_02,produto_03]
-print(produtos)
+carrinho: list = []
+
+carrinho.append(produto_01)
+carrinho.append(produto_02)
+
+print(carrinho)
