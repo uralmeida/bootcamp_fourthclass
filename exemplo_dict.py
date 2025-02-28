@@ -1,6 +1,14 @@
 
 
-produto_01: dict = {
+from typing import Dict, Optional, Any
+
+produto_01: Dict[str, [str]]
+
+import json
+
+lista: Any = ["Sapato", 39, 10.38, True]
+
+produto_01: Dict[str, Any] = {
 
     "nome" : "televisão",
     "quantidade" : 12,
@@ -9,7 +17,7 @@ produto_01: dict = {
 
 }
  
-produto_02: dict = {
+produto_02: dict ={
 
     "nome" : "notebook",
     "quantidade" : 19,
@@ -32,4 +40,5 @@ carrinho: list = []
 carrinho.append(produto_01)
 carrinho.append(produto_02)
 
-print(carrinho)
+carrinho_json = json.dumps(carrinho)
+print(carrinho_json)
