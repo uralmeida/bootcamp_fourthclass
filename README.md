@@ -1,12 +1,11 @@
 # bootcamp_dados
+## O objetivo principal, é a consulta de dados para criação de projetos.
+###### . Repositório modificado por IA.
+---
 
-## Análise e Manipulação de Dados para Projetos
+###### . Referência de materiais ao final do documento.
 
-### Referência de materiais ao final do documento.
-
-## Introdução
-Este repositório tem como objetivo explorar conceitos fundamentais de análise e manipulação de dados, utilizando Python e ferramentas como Pandas, SQL, Excel e Power BI. A ideia é fornecer exemplos práticos e boas práticas para organização e tratamento de dados.
-
+---
 ## 1. Type Hint e Tipagem de Dados
 O uso de Type Hint melhora a legibilidade e segurança do código, especificando os tipos de dados esperados em funções e variáveis. Na análise de dados, isso auxilia na prevenção de erros e melhora a compreensão do código por outros desenvolvedores.
 
@@ -61,15 +60,7 @@ nomes = [" Alice ", "BOB", "Carlos"]
 nomes_limpos = [limpar_texto(nome) for nome in nomes]
 print(nomes_limpos)  # Saída: ['alice', 'bob', 'carlos']
 ```
-
-## 5. Visualização de Dados com Power BI
-A visualização de dados é essencial para interpretação e tomada de decisão. Neste repositório, também serão abordadas boas práticas para criação de dashboards e relatórios interativos utilizando Power BI.
-
 ## Referências
-- [Documentação Oficial do Pandas](https://pandas.pydata.org/docs/)
-- [Guia de SQL para Análise de Dados](https://mode.com/sql-tutorial/)
 - [Material de Referência sobre Engenharia de Dados](https://github.com/lvgalvao/data-engineering-roadmap)
-
----
 
 Este repositório é um ambiente de aprendizado e experimentação para melhorar habilidades em manipulação e análise de dados. Qualquer sugestão ou contribuição é bem-vinda!
